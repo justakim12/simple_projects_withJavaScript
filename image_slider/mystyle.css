@@ -1,0 +1,15 @@
+#btn1 {
+padding: 10px;
+border-radius: 30px;
+background-color: lime;
+}
+
+#btn2 {
+padding: 10px;
+border-radius: 30px;
+background-color: lime;
+}
+
+.wrapper {
+    margin-left: 500px;
+}
