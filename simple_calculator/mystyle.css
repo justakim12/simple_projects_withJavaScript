@@ -3,14 +3,14 @@
  }
  
  input {
-     width: 150px;
-     height: 100px;
+     width: 20%;
+     height: 20%;
      font-size: 75px;
      border-radius: 10px;
      margin: 10px;
      background-color: #000;
      color: #fff;
-     border-style: none;
+     border-style: none; 
  }
 
  #myform {
@@ -20,4 +20,14 @@
  h1 {
      text-align: center;
      font-size: 80px;
+ }
+
+ .output-bar {
+    background-color:skyblue;
+    width: 85%;
+    height: 10%;
+ }
+
+ input:hover {
+     background-color: burlywood;
  }
