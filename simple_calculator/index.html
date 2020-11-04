@@ -5,34 +5,43 @@
         <meta name="description" content="Javascript calculator" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="mystyle.css">
-
         <title>Calculator </title>
 
     </head>
 
     <body>
-        <h1 style="text-align:center">New Calculator For Project!</h1>
+        <h1 style="text-align:center">Calculator Project</h1>
         <div class="cal-group">
             <br/>
-            <form id="myform">
-                <input name="display" class="output-bar"> 
+            <input value="0" class="output-bar"> 
             <br/>
-            <input type=button value="0">
-            <input type=button value="1">
-            <input type=button value="2">
-            <input type=button value="+"> <br/>
-            <input type=button value="3">
-            <input type=button value="4">
-            <input type=button value="5">
-            <input type=button value="-"> <br/>
-            <input type=button value="6">
-            <input type=button value="7">
-            <input type=button value="8">
-            <input type=button value="x"> <br/>
-            <input type=button value="9">
-            <input type=button value="C">
-            <input type=button value="=">
-            <input type=button value="&#247;">
+            <div class="row">
+                <input type=button value="0">
+                <input type=button value="1">
+                <input type=button value="2">
+                <input type=button value="+" class="equation">
+            </div>
+
+             <div class="row">
+                <input type=button value="3">
+                <input type=button value="4">
+                <input type=button value="5">
+                <input type=button value="-" class="equation"> 
+            </div>
+
+            <div class="row">
+                <input type=button value="6">
+                <input type=button value="7">
+                <input type=button value="8">
+                <input type=button value="x" class="equation">
+            </div>
+
+            <div class="row">                
+                <input type=button value="9">
+                <input type=button value="C" class="equation">
+                <input type=button value="=" class="equation">
+                <input type=button value="&#247;" class="equation">
+            </div>
         </div>
     </body>
 
