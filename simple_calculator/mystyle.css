@@ -40,9 +40,10 @@ body {
     background-color: #000;
     color: #fff; 
     border: 2px solid #bbbbbb;
+    cursor: pointer;
 }
 
-input:hover {
+.cal-button:hover {
     background-color: burlywood;
 }
 
