@@ -2,6 +2,7 @@ const showNumber = document.getElementById("result")
 let resultNumber = Number(showNumber.innerText)
 
 document.addEventListener("click", function(e) {
+    console.log(e.target);
     
     if (e.target.className.includes("cal-button")) {
         console.log("cal-button clicked")
@@ -10,8 +11,9 @@ document.addEventListener("click", function(e) {
         console.log(showNumber.innerText)
     }
 
-    if (e.target.className.includes("reset")) {
+    if (e.target.id.includes("reset")) {s
         console.log("reset clicked")
-        resultNumber = Number(0);
-        }
+        resultNumber = 0;
+        showNumber.innerText = resultNumber;
+    }
 })
