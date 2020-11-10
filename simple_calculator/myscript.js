@@ -11,7 +11,7 @@ document.addEventListener("click", function(e) {
         console.log(showNumber.innerText)
     }
 
-    if (e.target.id.includes("reset")) {s
+    if (e.target.id.includes("reset")) {
         console.log("reset clicked")
         resultNumber = 0;
         showNumber.innerText = resultNumber;
